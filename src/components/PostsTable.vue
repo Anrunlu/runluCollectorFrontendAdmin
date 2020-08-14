@@ -329,7 +329,7 @@ export default {
       this.$q
         .dialog({
           title: "请确认",
-          message: `删除用户 ${post.origname}，操作不可恢复！`,
+          message: `删除文件 ${post.origname}，操作不可恢复！`,
           ok: {
             label: "删除",
             push: true

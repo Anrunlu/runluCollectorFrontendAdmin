@@ -116,7 +116,7 @@
               dense
               size="sm"
               color="red"
-              icon="person_remove"
+              icon="clear"
               @click="handleDeleteCollection(props.row)"
             >
               <q-tooltip>
@@ -299,7 +299,7 @@ export default {
       this.$q
         .dialog({
           title: "请确认",
-          message: `删除用户 ${clt.title}，操作不可恢复！`,
+          message: `删除收集 ${clt.title}，操作不可恢复！`,
           ok: {
             label: "删除",
             push: true

@@ -42,7 +42,7 @@ module.exports = function(ctx) {
       vueRouterMode: "hash", // available values: 'hash', 'history'
       env: {
         API: ctx.dev
-          ? "http://localhost:3009"
+          ? "https://upadmin.anrunlu.net/api"
           : "https://upadmin.anrunlu.net/api",
         SOCKET: ctx.dev
           ? "http://localhost:3009"
