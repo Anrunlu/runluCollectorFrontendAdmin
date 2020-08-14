@@ -318,6 +318,7 @@ export default {
     },
     async onClickSetFeedbackStauts(status) {
       await updateFeedback(this.currFeedback._id, { status });
+      this.currFeedback.status = status;
       this.$q.notify({
         type: "positive",
         message: `设置成功`

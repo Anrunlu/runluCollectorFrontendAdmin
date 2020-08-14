@@ -302,7 +302,7 @@ export default {
         )
         .join("\r\n");
 
-      const status = exportFile("customer-management.csv", content, "text/csv");
+      const status = exportFile("users.csv", content, "text/csv");
 
       if (status !== true) {
         this.$q.notify({

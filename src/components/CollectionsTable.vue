@@ -276,7 +276,7 @@ export default {
         )
         .join("\r\n");
 
-      const status = exportFile("customer-management.csv", content, "text/csv");
+      const status = exportFile("collections.csv", content, "text/csv");
 
       if (status !== true) {
         this.$q.notify({
@@ -315,7 +315,7 @@ export default {
           await deleteCollection(clt.id);
           // 删除本地数据
           this.data.splice(
-            this.data.findIndex(item => item.id == clt.id),
+            this.data.findIndex(item => item.id === clt.id),
             1
           );
           this.$q.notify({

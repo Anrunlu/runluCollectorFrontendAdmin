@@ -39,7 +39,7 @@
         <hr />
         <q-scroll-area style="height:100%;">
           <q-list padding>
-            <q-item
+<!--            <q-item
               active-class="tab-active"
               to="/"
               exact
@@ -54,7 +54,7 @@
               <q-item-section>
                 运行报表
               </q-item-section>
-            </q-item>
+            </q-item>-->
 
             <q-item
               active-class="tab-active"
